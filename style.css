@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.topnav {
+    background-color: #8EACCD;
+    overflow: hidden;
+    height:5vh;
+    width: 100vw;
+  }
+
+.topnav h1{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: -0.10vh;
+  }
+.topnav a{
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.container{
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #2E4374,#4B527E, #7C81AD, #A6D0DD, white, #A6D0DD, #7C81AD, #4B527E, #2E4374); color: white 100vh;
+}
+.container div{min-height: 20vh;}
+.sidelinks{
+    display: inline-block; 
+    border: 1px solid black; 
+    width: 8vw; 
+    float:left;
+    border-radius: 15px;
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+    }
+.sidelinks a{display:block;}
+.sidelinks img{margin-top: 0.5vh}
+.main-content{
+    display:inline-block; 
+    border: 1px solid black; 
+    border-radius: 15px;
+    width:45vw; 
+    margin-left: 1vw; 
+    margin-right:1vw; 
+    text-align: center;}
+
+.main-content img{
+    width: 35.5vw;
+    margin-left: 5vw; 
+    margin-right: 5vw; 
+    margin-bottom: 2vw;}
+.side-content{
+    display: inline-block; 
+    border: 1px solid black; 
+    border-radius: 15px;
+    width: 20vw; 
+    float:right;
+    margin-top: 0.5vw;
+    margin-right: 0.3vw;
+    }
+.side-content p{
+    color:white;
+}
+.side-content img{
+    width:20vw;
+    border-radius: 15px;
+    }
+.main-content h2 span{
+    background: linear-gradient(to right, #BAD7E9, #F6FA70, #FD8A8A, #3E6D9C, #00DFA2,#FD8A8A, #2B3467, #F6FA70,#F0DE36, #6BCB77, #EB455F) ; -webkit-text-fill-color: transparent;-webkit-background-clip: text;}
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+.main-content h2{
+    text-align:center;
+    font-family: 'Young Serif', serif;
+    text-transform: uppercase;
+}
